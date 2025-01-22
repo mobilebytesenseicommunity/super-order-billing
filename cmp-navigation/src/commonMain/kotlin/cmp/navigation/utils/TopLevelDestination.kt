@@ -1,11 +1,11 @@
 /*
- * Copyright 2024 Mifos Initiative
+ * Copyright 2024 Android Byte Sensei
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  *
- * See See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+ * See See https://github.com/androidbytesensei/super-order-billing/blob/dev/LICENSE
  */
 package cmp.navigation.utils
 
@@ -14,8 +14,8 @@ import cmp.navigation.generated.resources.Res
 import cmp.navigation.generated.resources.app_name
 import cmp.navigation.generated.resources.home
 import cmp.navigation.generated.resources.profile
-import org.jetbrains.compose.resources.StringResource
 import com.sensei.order.billing.core.designsystem.icon.AppIcons
+import org.jetbrains.compose.resources.StringResource
 
 /**
  * Type for the top level destinations in the application. Each of these destinations

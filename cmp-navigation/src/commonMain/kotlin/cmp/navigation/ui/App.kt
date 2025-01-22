@@ -1,11 +1,11 @@
 /*
- * Copyright 2024 Mifos Initiative
+ * Copyright 2024 Android Byte Sensei
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  *
- * See See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+ * See See https://github.com/androidbytesensei/super-order-billing/blob/dev/LICENSE
  */
 package cmp.navigation.ui
 
@@ -51,7 +51,6 @@ import cmp.navigation.generated.resources.Res
 import cmp.navigation.generated.resources.not_connected
 import cmp.navigation.navigation.FeatureNavHost
 import cmp.navigation.utils.TopLevelDestination
-import org.jetbrains.compose.resources.stringResource
 import com.sensei.order.billing.core.data.utils.NetworkMonitor
 import com.sensei.order.billing.core.data.utils.TimeZoneMonitor
 import com.sensei.order.billing.core.designsystem.component.SuperOrderBillingNavigationBar
@@ -61,6 +60,7 @@ import com.sensei.order.billing.core.designsystem.component.SuperOrderBillingNav
 import com.sensei.order.billing.core.designsystem.icon.AppIcons
 import com.sensei.order.billing.feature.settings.navigateToNotification
 import com.sensei.order.billing.feature.settings.navigateToSettings
+import org.jetbrains.compose.resources.stringResource
 
 @Composable
 internal fun App(

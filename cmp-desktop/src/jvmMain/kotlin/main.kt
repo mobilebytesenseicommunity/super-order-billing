@@ -40,7 +40,7 @@ fun main() {
         Window(
             onCloseRequest = ::exitApplication,
             state = windowState,
-            title = "DesktopApp",
+            title = "Super Order Billing",
         ) {
             // Sets the content of the window.
             SharedApp()
