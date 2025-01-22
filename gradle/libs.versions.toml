@@ -79,12 +79,12 @@ jbSavedState = "1.2.2"
 
 # Desktop Version
 desktopPackageName = "DesktopApp"
-desktopPackageNamespace = "cmp.desktop.app"
+desktopPackageNamespace = "com.sensei.order.billing"
 desktopPackageVersion = "1.0.0"
 
 # Android Version
 androidPackageName = "AndroidApp"
-androidPackageNamespace = "cmp.android.app"
+androidPackageNamespace = "com.sensei.order.billing"
 androidPackageVersion = "1.0.0"
 
 [libraries]
