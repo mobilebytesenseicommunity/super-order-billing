@@ -1,11 +1,11 @@
 /*
- * Copyright 2025 Mifos Initiative
+ * Copyright 2025 Android Byte Sensei
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  *
- * See See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+ * See See https://github.com/androidbytesensei/super-order-billing/blob/dev/LICENSE
  */
 package cmp.navigation.ui
 
@@ -25,17 +25,17 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navOptions
 import cmp.navigation.utils.TopLevelDestination
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.flow.SharingStarted
-import kotlinx.coroutines.flow.map
-import kotlinx.coroutines.flow.stateIn
-import kotlinx.datetime.TimeZone
 import com.sensei.order.billing.core.data.utils.NetworkMonitor
 import com.sensei.order.billing.core.data.utils.TimeZoneMonitor
 import com.sensei.order.billing.feature.home.HOME_ROUTE
 import com.sensei.order.billing.feature.home.navigateToHome
 import com.sensei.order.billing.feature.profile.PROFILE_ROUTE
 import com.sensei.order.billing.feature.profile.navigateToProfile
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.datetime.TimeZone
 
 @OptIn(ExperimentalMaterial3WindowSizeClassApi::class)
 @Composable

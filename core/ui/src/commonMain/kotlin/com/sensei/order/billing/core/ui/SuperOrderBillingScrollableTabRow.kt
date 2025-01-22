@@ -1,11 +1,11 @@
 /*
- * Copyright 2024 Mifos Initiative
+ * Copyright 2024 Android Byte Sensei
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  *
- * See See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+ * See See https://github.com/androidbytesensei/super-order-billing/blob/dev/LICENSE
  */
 package com.sensei.order.billing.core.ui
 
@@ -19,8 +19,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import kotlinx.coroutines.launch
 import com.sensei.order.billing.core.designsystem.component.SuperOrderBillingTab
+import kotlinx.coroutines.launch
 
 @Suppress("MultipleEmitters")
 @Composable

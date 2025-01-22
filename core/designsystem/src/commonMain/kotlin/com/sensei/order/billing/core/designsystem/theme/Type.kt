@@ -1,11 +1,11 @@
 /*
- * Copyright 2024 Mifos Initiative
+ * Copyright 2024 Android Byte Sensei
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  *
- * See See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+ * See See https://github.com/androidbytesensei/super-order-billing/blob/dev/LICENSE
  */
 package com.sensei.order.billing.core.designsystem.theme
 
@@ -16,30 +16,30 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.unit.sp
-import org.jetbrains.compose.resources.Font
 import com.sensei.order.billing.core.designsystem.generated.resources.Res
-import com.sensei.order.billing.core.designsystem.generated.resources.outfit_black
-import com.sensei.order.billing.core.designsystem.generated.resources.outfit_bold
-import com.sensei.order.billing.core.designsystem.generated.resources.outfit_extra_bold
-import com.sensei.order.billing.core.designsystem.generated.resources.outfit_extra_light
-import com.sensei.order.billing.core.designsystem.generated.resources.outfit_light
-import com.sensei.order.billing.core.designsystem.generated.resources.outfit_medium
-import com.sensei.order.billing.core.designsystem.generated.resources.outfit_regular
-import com.sensei.order.billing.core.designsystem.generated.resources.outfit_semi_bold
-import com.sensei.order.billing.core.designsystem.generated.resources.outfit_thin
+import com.sensei.order.billing.core.designsystem.generated.resources.inter_black
+import com.sensei.order.billing.core.designsystem.generated.resources.inter_bold
+import com.sensei.order.billing.core.designsystem.generated.resources.inter_extra_bold
+import com.sensei.order.billing.core.designsystem.generated.resources.inter_extra_light
+import com.sensei.order.billing.core.designsystem.generated.resources.inter_light
+import com.sensei.order.billing.core.designsystem.generated.resources.inter_medium
+import com.sensei.order.billing.core.designsystem.generated.resources.inter_regular
+import com.sensei.order.billing.core.designsystem.generated.resources.inter_semi_bold
+import com.sensei.order.billing.core.designsystem.generated.resources.inter_thin
+import org.jetbrains.compose.resources.Font
 
 @Composable
 private fun fontFamily(): FontFamily {
     return FontFamily(
-        Font(Res.font.outfit_black, FontWeight.Black),
-        Font(Res.font.outfit_bold, FontWeight.Bold),
-        Font(Res.font.outfit_semi_bold, FontWeight.SemiBold),
-        Font(Res.font.outfit_medium, FontWeight.Medium),
-        Font(Res.font.outfit_regular, FontWeight.Normal),
-        Font(Res.font.outfit_light, FontWeight.Light),
-        Font(Res.font.outfit_thin, FontWeight.Thin),
-        Font(Res.font.outfit_extra_light, FontWeight.ExtraLight),
-        Font(Res.font.outfit_extra_bold, FontWeight.ExtraBold),
+        Font(Res.font.inter_black, FontWeight.Black),
+        Font(Res.font.inter_bold, FontWeight.Bold),
+        Font(Res.font.inter_semi_bold, FontWeight.SemiBold),
+        Font(Res.font.inter_medium, FontWeight.Medium),
+        Font(Res.font.inter_regular, FontWeight.Normal),
+        Font(Res.font.inter_light, FontWeight.Light),
+        Font(Res.font.inter_thin, FontWeight.Thin),
+        Font(Res.font.inter_extra_light, FontWeight.ExtraLight),
+        Font(Res.font.inter_extra_bold, FontWeight.ExtraBold),
     )
 }
 

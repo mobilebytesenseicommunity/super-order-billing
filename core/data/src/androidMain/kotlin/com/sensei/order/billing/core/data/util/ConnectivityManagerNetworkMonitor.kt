@@ -1,11 +1,11 @@
 /*
- * Copyright 2024 Mifos Initiative
+ * Copyright 2024 Android Byte Sensei
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  *
- * See See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+ * See See https://github.com/androidbytesensei/super-order-billing/blob/dev/LICENSE
  */
 package com.sensei.order.billing.core.data.util
 
@@ -17,13 +17,13 @@ import android.net.NetworkCapabilities
 import android.net.NetworkRequest
 import android.net.NetworkRequest.Builder
 import androidx.core.content.getSystemService
+import com.sensei.order.billing.core.data.utils.NetworkMonitor
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.conflate
 import kotlinx.coroutines.flow.flowOn
-import com.sensei.order.billing.core.data.utils.NetworkMonitor
 
 internal class ConnectivityManagerNetworkMonitor(
     private val context: Context,

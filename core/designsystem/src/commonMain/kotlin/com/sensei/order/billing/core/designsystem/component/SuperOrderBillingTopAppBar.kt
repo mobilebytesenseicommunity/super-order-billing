@@ -1,11 +1,11 @@
 /*
- * Copyright 2024 Mifos Initiative
+ * Copyright 2024 Android Byte Sensei
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  *
- * See See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+ * See See https://github.com/androidbytesensei/super-order-billing/blob/dev/LICENSE
  */
 package com.sensei.order.billing.core.designsystem.component
 
@@ -33,10 +33,10 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.jetbrains.compose.ui.tooling.preview.Preview
 import com.sensei.order.billing.core.designsystem.icon.AppIcons
 import com.sensei.order.billing.core.designsystem.theme.SuperOrderBillingTheme
 import com.sensei.order.billing.core.designsystem.utils.mirrorIfRtl
+import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
